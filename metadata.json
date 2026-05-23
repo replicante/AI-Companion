@@ -1,0 +1,20 @@
+{
+    "KPlugin": {
+        "Authors": [
+            {
+                "Email": "user@localhost",
+                "Name": "AI Companion"
+            }
+        ],
+        "Category": "Utilities",
+        "Description": "Minimalist AI assistant \u2014 Claude, Gemini, ChatGPT, Grok, Qwen, Ollama, HuggingFace, NVIDIA, OpenRouter, llama.cpp",
+        "Icon": "dialog-messages",
+        "Id": "com.local.aicompanion",
+        "License": "GPL-2.0+",
+        "Name": "AI Companion",
+        "Version": "3.2",
+        "Website": ""
+    },
+    "KPackageStructure": "Plasma/Applet",
+    "X-Plasma-API-Minimum-Version": "6.0"
+}
