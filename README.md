@@ -5,7 +5,7 @@
 
 A minimalist AI assistant plasmoid for **KDE Plasma 6** that lives in your panel or desktop. Supports streaming responses from a wide range of AI providers — both cloud APIs and local inference servers.
 
-https://github.com/user-attachments/assets/9197800a-6adc-4410-99b4-40b481b277b2
+[Vista principal](https://github.com/user-attachments/assets/9197800a-6adc-4410-99b4-40b481b277b2)
 
 ![Plasma 6](https://img.shields.io/badge/Plasma-6.x-blue?logo=kde)
 ![QML](https://img.shields.io/badge/QML-Qt6-green)
@@ -16,7 +16,7 @@ https://github.com/user-attachments/assets/9197800a-6adc-4410-99b4-40b481b277b2
 
 ## Supported providers
 
-https://github.com/user-attachments/assets/1135cf85-c540-47fc-af1f-220e369cfd18
+[Vista principal](https://github.com/user-attachments/assets/1135cf85-c540-47fc-af1f-220e369cfd18)
 
 | Provider | Type | Notes |
 |---|---|---|
