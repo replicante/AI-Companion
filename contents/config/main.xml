@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kcfg xmlns="http://www.kde.org/standards/kcfg/1.0"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.kde.org/standards/kcfg/1.0
+      http://www.kde.org/standards/kcfg/1.0/kcfg.xsd">
+  <kcfgfile name=""/>
+  <group name="General">
+    <entry name="activeProvider" type="String"><default>claude</default></entry>
+    <entry name="activeOllamaIndex" type="Int"><default>0</default></entry>
+    <entry name="maxTokens" type="Int"><default>1024</default></entry>
+    <entry name="systemPrompt" type="String">
+      <default>You are a concise assistant. Give short, direct answers. Use plain text, no markdown.</default>
+    </entry>
+
+    <entry name="enableSearch" type="Bool">
+      <default>false</default>
+    </entry>
+    <entry name="searxngHost" type="String">
+      <default>http://127.0.0.1:8888/</default>
+    </entry>
+    <entry name="searchLimit" type="Int">
+      <default>3</default>
+    </entry>
+
+    <entry name="chatHistory" type="String">
+      <default>[]</default>
+    </entry>
+
+    <entry name="quickPrompts" type="String">
+      <default>[{"label":"Resumir","prompt":"Resume el siguiente texto en puntos clave (sin markdown):\n\n"},{"label":"Mejorar","prompt":"Mejora la redacción de este texto manteniendo el significado (sin markdown):\n\n"},{"label":"Explicar código","prompt":"Explica qué hace este código de forma clara y concisa:\n\n"},{"label":"Traducir ES","prompt":"Traduce al español:\n\n"},{"label":"Traducir EN","prompt":"Translate to English:\n\n"}]</default>
+    </entry>
+  </group>
+
+  <group name="Claude">
+    <entry name="claudeApiKey" type="String"><default></default></entry>
+    <entry name="claudeModel" type="String"><default>claude-3-5-sonnet-latest</default></entry>
+  </group>
+
+  <group name="Gemini">
+    <entry name="geminiApiKey" type="String"><default></default></entry>
+    <entry name="geminiModel" type="String"><default>gemini-2.5-flash</default></entry>
+  </group>
+
+  <group name="OpenAI">
+    <entry name="openaiApiKey" type="String"><default></default></entry>
+    <entry name="openaiModel" type="String"><default>gpt-4o</default></entry>
+  </group>
+
+  <group name="Grok">
+    <entry name="grokApiKey" type="String"><default></default></entry>
+    <entry name="grokModel" type="String"><default>grok-2-latest</default></entry>
+  </group>
+
+  <group name="Qwen">
+    <entry name="qwenApiKey" type="String"><default></default></entry>
+    <entry name="qwenModel" type="String"><default>qwen/qwen3-max</default></entry>
+  </group>
+
+  <group name="Ollama">
+    <entry name="ollamaHost" type="String"><default>http://localhost:11434</default></entry>
+    <entry name="ollamaProfiles" type="String">
+      <default>[{"name":"llama3.2","model":"llama3.2"}]</default>
+    </entry>
+  </group>
+
+  <group name="HuggingFace">
+    <entry name="hfApiKey" type="String"><default></default></entry>
+    <entry name="hfModel" type="String"><default>meta-llama/Llama-3.1-8B-Instruct</default></entry>
+  </group>
+
+  <!-- NVIDIA - Optimizado para API gratuita de build.nvidia.com -->
+  <group name="NVIDIA">
+    <entry name="nvidiaApiKey" type="String"><default></default></entry>
+    <entry name="nvidiaModel" type="String"><default>meta/llama-3.3-70b-instruct</default></entry>
+    <entry name="nvidiaBaseUrl" type="String"><default>https://integrate.api.nvidia.com</default></entry>
+  </group>
+</kcfg>
